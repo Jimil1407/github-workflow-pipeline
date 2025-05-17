@@ -20,6 +20,6 @@ jobs:
             - name: Configure artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                path: '.'
+                path: 'public'
             - name: Deploy to GitHub Pages
               uses: actions/deploy-pages@v2
